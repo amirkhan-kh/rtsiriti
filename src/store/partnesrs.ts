@@ -1,0 +1,16 @@
+export const partnersImg = [
+    {img: "amity"},
+    {img: "binZayed"},
+    {img: "china"},
+    {img: "galgotias"},
+    {img: "huawei"},
+    {img: "tatu"},
+    {img: "unicon"},
+    {img: "tyufed"},
+    {img: "nuwa"},
+    {img: "visitech"},
+    {img: "transport"},
+    {img: "relawan"},
+    {img: "raqamliVazirlik"},
+    {img: "acceleration"},
+]
