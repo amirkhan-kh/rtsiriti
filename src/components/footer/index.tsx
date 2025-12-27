@@ -12,7 +12,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 const Footer: React.FC = () => {
   const { t } = useTranslation("HeaderLang");
   return (
-    <footer className="bg-[#4c75f6] py-8">
+    <footer className="bg-[#4c75f6] py-8 dark:bg-[#7C96FF]">
       <div className="container mx-auto px-4 ">
         <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-0 justify-between border-b-2 border-white py-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 ">

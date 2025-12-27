@@ -8,15 +8,15 @@ export const navLink = [
     { srcLink: "/events-ranking", linkName: "select17"},
 
 
-    { srcLink: "/laboratories", linkName: "select21"},
+    { srcLink: "/conferences", linkName: "select21"},
     { srcLink: "/doctorate", linkName: "select22"},
-    { srcLink: "/conferences", linkName: "select23"},
+    { srcLink: "/laboratories", linkName: "select23"},
 
 
     { srcLink: "/teachers", linkName: "select31"},
     { srcLink: "/students", linkName: "select32"},
-    { srcLink: "/state-symbols", linkName: "select33"},
-    { srcLink: "/graduates", linkName: "select34"},
+    { srcLink: "/graduates", linkName: "select33"},
+    { srcLink: "/state-symbols", linkName: "select34"},
 
 
     { srcLink: "/institut-props", linkName: "select41"},

@@ -19,16 +19,16 @@ const SelectHome: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-4 py-6">
         <div className="space-y-6 md:space-y-4">
             <Reveal width="100%">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full ">
               <AccordionItem
-                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white"
+                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white  dark:bg-black"
                 value="item-1"
               >
-                <AccordionTrigger className="text-[#4c75f6] text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
+                <AccordionTrigger className="text-[#4c75f6] text-[14px] sm:text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline ">
                   {t("title1")}
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col gap-4 text-lg py-2">
-                  <span className="text-gray-700">{t("description1")}</span>
+                  <span className="text-gray-700 dark:text-[#4c75f6]">{t("description1")}</span>
                   <div className="text-end">
                     <NavLink
                       to={"/about-institut"}
@@ -45,14 +45,14 @@ const SelectHome: React.FC = () => {
             <Reveal width="100%">
           <Accordion type="single" collapsible className="w-full">
               <AccordionItem
-                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white"
+                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white dark:bg-black"
                 value="item-3"
               >
-                <AccordionTrigger className="text-[#4c75f6] text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
+                <AccordionTrigger className="text-[#4c75f6] text-[14px] sm:text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
                   {t("title3")}
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col gap-4 text-lg py-2">
-                  <span className="text-gray-700">{t("description3")}</span>
+                  <span className="text-gray-700 dark:text-[#4c75f6]">{t("description3")}</span>
                   <div className="text-end">
                     <NavLink
                       to={"/institut-structure"}
@@ -71,14 +71,14 @@ const SelectHome: React.FC = () => {
             <Reveal width="100%">
           <Accordion type="single" collapsible className="w-full">
               <AccordionItem
-                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white"
+                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white dark:bg-black"
                 value="item-2"
               >
-                <AccordionTrigger className="text-[#4c75f6] text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
+                <AccordionTrigger className="text-[#4c75f6] text-[14px] sm:text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
                   {t("title2")}
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col gap-4 text-lg py-2">
-                  <span className="text-gray-700">{t("description2")}</span>
+                  <span className="text-gray-700 dark:text-[#4c75f6]">{t("description2")}</span>
                   <div className="text-end">
                     <NavLink
                       to={"/institut-team"}
@@ -95,14 +95,14 @@ const SelectHome: React.FC = () => {
             <Reveal width="100%">
           <Accordion type="single" collapsible className="w-full">
               <AccordionItem
-                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white"
+                className="shadow-sm hover:shadow-md shadow-[#4c75f6] p-4 bg-white dark:bg-black"
                 value="item-4"
               >
-                <AccordionTrigger className="text-[#4c75f6] text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
+                <AccordionTrigger className="text-[#4c75f6] text-[14px] sm:text-2xl border-[#4c75f6] border-l-4 pl-2.5 hover:no-underline">
                   {t("title4")}
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col gap-4 text-lg py-2">
-                  <span className="text-gray-700">{t("description4")}</span>
+                  <span className="text-gray-700 dark:text-[#4c75f6]">{t("description4")}</span>
                   <div className="text-end">
                     <NavLink
                       to={"/laboratories"}

@@ -10,7 +10,7 @@ function App() {
   return (
     <div  className={`${mode}`}>
       <Header />
-      <main className="pt-44 min-h-screen">
+      <main className="pt-54 min-h-screen">
         <Outlet />
       </main>
       <Footer />

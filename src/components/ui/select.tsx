@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from "lucide-react";
+import { cn } from "../../lib/utils";
 
-import { cn } from "@/lib/utils";
 
 function Select({
   ...props
@@ -23,7 +23,7 @@ function SelectValue({
 }
 
 function SelectTrigger({
-  className,
+
   size = "default",
   children,
   ...props
@@ -35,7 +35,7 @@ function SelectTrigger({
       data-slot="select-trigger"
       data-size={size}
       className={cn(
-        (className = `relative z-[9999]border-input
+        (`relative z-[9999]border-input dark:text-white
 data-[placeholder]:text-muted-foreground
 [&_svg:not([class*='text-'])]:text-muted-foreground
 focus-visible:border-ring
@@ -47,9 +47,10 @@ w-fit
 items-center
 justify-between
 gap-2
-rounded-md
+rounded-[3px]
 border
-bg-white
+border-[#f0f0f0]
+
 px-3
 py-2
 text-sm

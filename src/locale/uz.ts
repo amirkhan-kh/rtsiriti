@@ -529,7 +529,7 @@ Olimlarning yirik ilmiy ishlari, ixtiro va kashfiyotlarini ilm-fan sohasida O‘
     do:"Direktorning ilm-fan bo'yicha maslahatchisi va ilmiy kengash raisi",
     yok: `Yosh olimlar kengashi`,
 
-    dibo:"Direktorning ilmiy ishlar bo'yicha o'rinbosari",
+    dibo:"Direktorning ilm-fan bo'yicha o'rinbosari",
     btl:"Biometrik tizmlar labaratoriyasi",
     ttol: "Timsollarni tanib olish labaratoriyasi",
     ttqil:"Tabiiy tilni qayta ishlash labaratoriyasi",
@@ -990,10 +990,31 @@ O'zbekiston Respubliasining Davlat madhiyasi O'zbekiston Respubliasi Davlat suve
 O'zbekiston Respubliasining Davlat madhiyasiga zo'r ehtirom bilan qarash O'zbekiston Respubliasi har bir fuqarosining vatanparvarlik burchidir.`,
     autor: "Mutal Burhonov musiqasi",
     poet: "Abdulla Oripov so'zlari",
+    hymn: `Serquyosh hur o'lkam, elga baxt, najot,
+Sen o'zing do'stlarga yo'ldosh, mehribon!
+Yashnagay to abad ilmu fan, ijod,
+Shuhrating porlasin toki bor jahon!
+
+Naqarot:
+Oltin bu vodiylar - jon O'zbekiston,
+Ajdodlar mardona ruhi senga yor!
+Ulug' xalq qudrati jo'sh urgan zamon,
+Olamni mahliyo aylagan diyor!
+
+Bag'ri keng o'zbekning o'chmas iymoni,
+Erkin, yosh avlodlar senga zo'r qanot!
+Istiqlol mash'ali tinchlik posboni,
+Xaqsevar, ona yurt, mangu bo'l obod!
+
+Naqarot:
+Oltin bu vodiylar - jon O'zbekiston,
+Ajdodlar mardona ruhi senga yor!
+Ulug' xalq qudrati jo'sh urgan zamon,
+Olamni mahliyo aylagan diyor!`
 }
 //Graduates Page
  const Graduates = {
-    title: "NAFIS ZIYOLILAR",
+    title: "BITIRUVCHILAR",
     card1:"Djumayozov Umidjon Zafarjonovichning “Elastiklik nazariyasining deformatsiyalarga nisbatan matematik va sonli modellari” mavzusidagi texnika fanlari doktori (DSc) darajasini olish uchun ilmiy tadqiqoti xususida",
     cardDate1: "Iyun 11 - 2025",
 
@@ -1059,6 +1080,7 @@ O'zbekiston Respubliasining Davlat madhiyasiga zo'r ehtirom bilan qarash O'zbeki
 }
 //Props Page
  const Props = {
+  mapTitle: "Joylashuvimi",
     title: "Institut rekvizitlari",
     desc: `O‘zbekiston Respublikasi Raqamli texnologiyalar vazirligi huzuridagi Raqamli texnologiyalar va sun’iy intellektni rivojlantirish ilmiy-tadqiqot instituti
 Manzil: 100125, Toshkent sh., Mirzo Ulug‘bek tumani, Bo‘z-2, 17A

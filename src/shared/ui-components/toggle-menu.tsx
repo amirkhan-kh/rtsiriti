@@ -14,7 +14,7 @@ const ToggleMenu: React.FC<Props> = ({ open }) => {
   return (
     <div
       className={clsx(
-        "absolute left-0 top-full w-full bg-[#4c75f6] z-40",
+        "absolute left-0 top-full w-full bg-[#4c75f6] z-10",
         "transition-all duration-300 ease-out ",
         open
           ? "opacity-100 translate-y-0 pointer-events-auto"

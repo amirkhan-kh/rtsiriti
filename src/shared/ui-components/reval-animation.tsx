@@ -56,7 +56,7 @@ interface RevalAboutImgProps {
 export const RevalLeft = ({ 
   children, 
   width = "100%", 
-  delay = 0.25,
+  delay = 0.5,
   duration = 1,
   direction = "left",
   gradientColor = "rgba(255,255,255,1)"

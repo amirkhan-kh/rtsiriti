@@ -9,11 +9,12 @@ import {
 import { Card, CardContent } from "../../../../components/ui/card";
 import { partnersImg } from "../../../../store/partnesrs";
 import { useTranslation } from "react-i18next";
+import type { UseEmblaCarouselType } from "embla-carousel-react";
 
 const CarouselHome: React.FC = () => {
-  const [api, setApi] = useState<number>();
+  const [api, setApi] = useState<UseEmblaCarouselType>();
   const [current, setCurrent] = useState(0);
-  const intervalRef = React.useRef<number>();
+  const intervalRef = React.useRef<number>(0);
   const {t} = useTranslation("Intro")
   const onSelect = useCallback((api: any) => {
     if (!api) return;
@@ -84,11 +85,11 @@ const CarouselHome: React.FC = () => {
             {partnersImg.map((item, i) => (
               <CarouselItem 
                 key={i} 
-                className="pl-4 basis sm:basis-1/2 md:basis-1/3 lg:basis-1/4"
+                className="pl-4 basis sm:basis-1/2 md:basis-1/3 lg:basis-1/4 "
               >
                 <div className="p-1">
-                  <Card className="shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <CardContent className="flex items-center justify-center h-40">
+                  <Card className="shadow-md hover:shadow-md dark:shadow-[#4c75f6] transition-shadow duration-300 ">
+                    <CardContent className="flex items-center justify-center h-40 dark:bg-white ">
                       <img
                         src={`/images/optimized/${item.img}.avif`}
                         alt={`Partner ${i + 1}`}

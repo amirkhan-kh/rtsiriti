@@ -903,10 +903,31 @@ The State Anthem of the Republic of Uzbekistan is a symbol of the state sovereig
 Showing great respect to the State Anthem of the Republic of Uzbekistan is the patriotic duty of every citizen of the Republic of Uzbekistan.`,
     autor: "Music by Mutal Burhonov",
     poet: "Words by Abdulla Oripov",
+    hymn: `Bright sun of my happy land, bringing joy and salvation to the people,
+You are a companion to friends, so kind!
+May science, creativity, and knowledge flourish forever,
+May your glory shine as long as the world exists!
+
+Chorus:
+These golden valleys - dear Uzbekistan,
+The courageous spirit of ancestors shines upon you!
+The great power of the people in the roaring times,
+A land that has captivated the world!
+
+The Uzbek's broad heart has an undying faith,
+Free, young generations are your strong wings!
+The torch of independence, the guardian of peace,
+Truth-loving, motherland, be eternally prosperous!
+
+Chorus:
+These golden valleys - dear Uzbekistan,
+The courageous spirit of ancestors shines upon you!
+The great power of the people in the roaring times,
+A land that has captivated the world!`
 }
 
  const Graduates = {
-    title: "EXCELLENT INTELLECTUALS",
+    title: "Graduate",
     card1: "Regarding the scientific research of Djumayozov Umidjon Zafarjonovich for obtaining Doctor of Technical Sciences (DSc) degree on the topic 'Mathematical and numerical models of elasticity theory relative to deformations'",
     cardDate1: "June 11 - 2025",
 
@@ -972,6 +993,7 @@ Showing great respect to the State Anthem of the Republic of Uzbekistan is the p
 }
 
  const Props = {
+    mapTitle: "Location",
     title: "Institute Details",
     desc: `Scientific Research Institute for Digital Technologies and Artificial Intelligence Development under the Ministry of Digital Technologies of the Republic of Uzbekistan
 Address: 100125, Tashkent city, Mirzo Ulugbek district, Boz-2, 17A

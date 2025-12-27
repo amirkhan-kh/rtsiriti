@@ -7,7 +7,7 @@ const CardAnimations: React.FC = () => {
   const { t } = useTranslation("HomeMainCard");
   
   return (
-    <section className="container mx-auto p-4 bg-[#f0f0f0]">
+    <section className="container mx-auto p-4  ">
       <div className="flex flex-col py-8 gap-10 sm:gap-20">
         <FadeContent
           blur={true}
@@ -23,7 +23,7 @@ const CardAnimations: React.FC = () => {
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
-                <p className="text-[18px]">{t("description1")}</p>
+                <p className="text-[18px] dark:text-white">{t("description1")}</p>
               </div>
             </div>
           </RevalLeft>
@@ -43,7 +43,7 @@ const CardAnimations: React.FC = () => {
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
-                <p className="text-[18px]">{t("description2")}</p>
+                <p className="text-[18px] dark:text-white">{t("description2")}</p>
               </div>
             </div>
           </RevalRight>
@@ -63,7 +63,7 @@ const CardAnimations: React.FC = () => {
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
-                <p className="text-[18px]">{t("description3")}</p>
+                <p className="text-[18px] dark:text-white">{t("description3")}</p>
               </div>
             </div>
           </RevalLeft>
@@ -83,7 +83,7 @@ const CardAnimations: React.FC = () => {
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
-                <p className="text-[18px]">{t("description4")}</p>
+                <p className="text-[18px] dark:text-white">{t("description4")}</p>
               </div>
             </div>
           </RevalRight>

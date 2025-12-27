@@ -35,7 +35,7 @@ const HeroIntro: React.FC = () => {
           {newsCards.slice(9, 10).map((item, i) => (
             <div
               key={i}
-              className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 "
             >
               <div className="flex-1 overflow-hidden relative">
                 <img
@@ -93,7 +93,7 @@ const HeroIntro: React.FC = () => {
           ))}
 
           <div className="hidden md:block h-full">
-            <div className="h-full relative bg-[#4c75f6] overflow-hidden shadow-lg">
+            <div className="h-full relative bg-[#4c75f6] dark:bg-[#7C96FF] overflow-hidden shadow-lg">
               <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-[#4c75f6] to-transparent z-10 pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#4c75f6] to-transparent z-10 pointer-events-none"></div>
 

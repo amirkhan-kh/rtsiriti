@@ -77,6 +77,72 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+   --base-font-size: 16px;
+  --font-normal: 16px;
+  --font-large: 20px;
+  --font-x-large: 24px;
+  
+  --spacing-small: calc(var(--base-font-size) * 0.5);
+  --spacing-medium: var(--base-font-size);
+  --spacing-large: calc(var(--base-font-size) * 1.5);
+}
+
+  .dark {
+    --background: 222.2 47.4% 11.2%;
+    --foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --primary: 210 40% 98%;
+  }
+/* kontext sizelar */
+
+
+
+ /* h1 {
+    @apply  text-foreground;
+  }
+
+  h2 {
+    @apply  text-foreground;
+  }
+
+  h3 {
+    @apply  text-foreground;
+  }
+
+  p {
+    @apply text-base text-foreground;
+  } */
+
+
+@layer base {
+  [data-font="normal"] h1 { @apply text-xl; }
+  [data-font="normal"] h2 { @apply text-xl; }
+  [data-font="normal"] h3 { @apply text-lg; }
+  [data-font="normal"] p  { @apply text-[16px]; }
+
+  [data-font="large"] h1 { @apply text-2xl; }
+  [data-font="large"] h2 { @apply text-xl; }
+  [data-font="large"] h3 { @apply text-[18px]; }
+  [data-font="large"] p  { @apply text-[14px]; }
+}
+
+
+
+body {
+  font-size: var(--base-font-size);
+}
+
+@layer base {
+  html {
+    font-size: var(--base-font-size);
+  }
+}
+
+/* Mobile uchun responsive */
+@media (max-width: 768px) {
+  .font-size-large {
+    font-size: calc(var(--font-size-large) * 0.9);
+  }
 }
 
 .dark {
@@ -193,3 +259,6 @@ header{
     border-image-source: linear-gradient(360deg, #4c75f6, #838383, #ffffff, #00218c);
   }
 }
+
+
+
