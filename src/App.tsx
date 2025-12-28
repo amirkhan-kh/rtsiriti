@@ -10,9 +10,9 @@ function App() {
 
   return (
     <div  className={`${mode}`}>
-         <RouteChangeLoader />
+      <RouteChangeLoader />
       <Header />
-      <main className="pt-54 min-h-screen">
+      <main className="pt-60 min-h-screen">
         <Outlet />
       </main>
       <Footer />
