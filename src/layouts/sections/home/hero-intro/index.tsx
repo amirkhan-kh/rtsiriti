@@ -1,13 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { newsCards } from "../../../../store/news";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const HeroIntro: React.FC = () => {
   const { t } = useTranslation("Carousel");
   const [currentSlide, setCurrentSlide] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   const [isPaused, setIsPaused] = useState(false);
 
@@ -32,9 +33,10 @@ const HeroIntro: React.FC = () => {
 
       <div className="py-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-x-6 items-stretch min-h-[400px]">
-          {newsCards.slice(9, 10).map((item, i) => (
+          {newsCards.slice(9, 10).map((item) => (
             <div
-              key={i}
+              key={item.id}
+                onClick={() => navigate(`/single/news/${item.id}`)}
               className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 "
             >
               <div className="flex-1 overflow-hidden relative">
@@ -51,12 +53,12 @@ const HeroIntro: React.FC = () => {
                 </h3>
                 <div className="flex items-end justify-between mt-2">
                   <p className="text-xs text-gray-500"> {t(item.date)}</p>
-                  <NavLink 
-                    to="/news" 
+                  <a 
+                    href={`#`}
                     className="text-xs text-[#4c75f6] hover:text-[#3a5bc4] transition-colors duration-300 font-medium"
                   >
                     {t("btn")}
-                  </NavLink>
+                  </a>
                 </div>
               </div>
             </div>
@@ -65,6 +67,7 @@ const HeroIntro: React.FC = () => {
           {newsCards.slice(6, 7).map((item, i) => (
             <div
               key={i}
+               onClick={() => navigate(`/single/news/${item.id}`)}
               className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex-1 overflow-hidden relative">

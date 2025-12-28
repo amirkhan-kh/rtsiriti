@@ -15,6 +15,7 @@ import Conferences from "./research/conferences";
 import Doctorate from "./research/doctorate";
 import Laboratories from "./research/laboratories";
 import News from "./news/";
+import Content from "./content";
 
 export {
   Graduates,
@@ -33,5 +34,6 @@ export {
   Conferences,
   Doctorate,
   Laboratories,
-  News
+  News,
+  Content
 };

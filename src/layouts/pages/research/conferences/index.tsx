@@ -1,10 +1,12 @@
 import React from 'react'
 import './_style.scss'
 import { useTranslation } from 'react-i18next';
-import { NavLink } from 'react-router';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { newsCards } from '../../../../store/news';
 const Conferences :React.FC = () => {
   const {t} = useTranslation("Carousel")
+    const navigate = useNavigate();
+
   return (
     <section className='container mx-auto px-4 py-10'>
 
@@ -12,6 +14,7 @@ const Conferences :React.FC = () => {
         {newsCards.slice(13, 15).map((item, i) => (
             <div
               key={i}
+              onClick={() => navigate(`/single/news/${item.id}`)}
               className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 rounded-[2px]"
             >
               <div className="flex-1 overflow-hidden relative">

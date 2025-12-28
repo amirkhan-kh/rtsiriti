@@ -1,9 +1,6 @@
 import "./lang/index.ts";
-import { PrimeReactProvider } from "primereact/api";
-
 import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
-
 import "./index.css";
 import { router } from "./routers/main-router.tsx";
 import { ViewModeProvider } from "./shared/utils/view-mode-provider.tsx";
@@ -13,11 +10,9 @@ import { ThemeProvider } from "./shared/utils/theme-provider-props.tsx";
 createRoot(document.getElementById("root")!).render(
   <ThemeProvider>
     <ViewModeProvider>
-      <PrimeReactProvider>
         <FontSizeProvider>
           <RouterProvider router={router} />
         </FontSizeProvider>
-      </PrimeReactProvider>
     </ViewModeProvider>
   </ThemeProvider>
 );

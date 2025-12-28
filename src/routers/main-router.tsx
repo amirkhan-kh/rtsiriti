@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import MainPage from "../layouts/main-page";
-import { AboutInstitut, Conferences, Doctorate, EventsRanking, Graduates, InstitutProps, InstitutStructure, InstitutTeam, InternalDocuments, InternContacts, Laboratories, News, ReceptionDays, ScientificCouncil, StateSymbols, Students, Teachers } from "../layouts/pages";
+import { AboutInstitut, Conferences, Content, Doctorate, EventsRanking, Graduates, InstitutProps, InstitutStructure, InstitutTeam, InternalDocuments, InternContacts, Laboratories, News, ReceptionDays, ScientificCouncil, StateSymbols, Students, Teachers } from "../layouts/pages";
 
 export const children = [  
     { path: "/", element: <MainPage />},
@@ -22,6 +22,7 @@ export const children = [
     { path: "/doctorate", element: <Doctorate/> },
     { path: "/laboratories", element: <Laboratories/> },
     { path: "/news", element: <News/> },
+    { path: "/single/:type/:id", element: <Content/> },
 
 ];
 export const router = createBrowserRouter([

@@ -11,7 +11,7 @@ const CardAnimations: React.FC = () => {
       <div className="flex flex-col py-8 gap-10 sm:gap-20">
         <FadeContent
           blur={true}
-          duration={2000}
+          duration={1700}
           easing="ease-out"
           initialOpacity={0}
         >

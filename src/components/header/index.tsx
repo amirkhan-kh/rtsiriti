@@ -7,7 +7,7 @@ import clsx from "clsx";
 import { FaItunesNote } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useFontSize } from "../../shared/utils/fontsize-context";
-import { RiFontSize2 } from "react-icons/ri";
+import { BiFontSize } from "react-icons/bi";
 
 const Header: React.FC = () => {
   const { t } = useTranslation("HeaderLang");
@@ -40,7 +40,8 @@ const Header: React.FC = () => {
               onClick={toggleFontSize}
               className="px-3 py-1 border rounded-full text-sm focus:bg-[#f0f0f0] dark:text-white"
             >
-             <RiFontSize2 />
+           <BiFontSize />
+
 
             </button>
           </div>
