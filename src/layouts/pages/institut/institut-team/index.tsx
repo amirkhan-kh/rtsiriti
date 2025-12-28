@@ -23,7 +23,7 @@ const InstitutTeam: React.FC = () => {
   className=" hover:bg-white/5 backdrop-blur-sm flex flex-row sm:flex-col md:flex-row h-40 sm:h-100 md:h-40  shadow shadow-white rounded-[3px] overflow-hidden group"              >
                 <img
                   className="transition-transform duration-500 ease-in-out group-hover:scale-105"
-                  src={`/public/images/webp/${item.emLevel}.webp`}
+                  src={`/images/webp/${item.emLevel}.webp`}
                   alt=""
                   />
                 <div className="p-4 text-[12px] md:text-[14px] font-semibold text-white flex flex-col gap-3 justify-center">

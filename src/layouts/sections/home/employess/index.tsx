@@ -12,7 +12,7 @@ const Model:React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-fixed bg-start bg-cover"
         style={{
-          backgroundImage: 'url(/images/original/news1.jpg)',
+          backgroundImage: 'url(/images/webp/news1.webp)',
           backgroundAttachment: 'fixed',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

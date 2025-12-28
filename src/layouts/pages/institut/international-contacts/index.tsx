@@ -22,7 +22,7 @@ const InternContacts: React.FC = () => {
           >
             <img
               className="w-50 h-24 transition-transform duration-500 ease-in-out group-hover:scale-105"
-              src={`/public/images/webp/${item.img}.webp`}
+              src={`/images/webp/${item.img}.webp`}
               alt=""
             />
           </div>

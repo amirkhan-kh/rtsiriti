@@ -23,7 +23,7 @@ const Teachers :React.FC = () => {
               className="flex flex-col h-full relative group  overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 rounded-[3px]">
                 <img
                   className="transition-transform duration-500 ease-in-out group-hover:scale-105"
-                  src={`/public/images/webp/${item.img}.webp`}
+                  src={`/images/webp/${item.img}.webp`}
                   alt=""
                   />
                 <div className="p-4 text-[12px] md:text-[14px] font-semibold text-white flex flex-col gap-3 justify-between">

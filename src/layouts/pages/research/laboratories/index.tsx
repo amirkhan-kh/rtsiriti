@@ -18,7 +18,7 @@ const Laboratories: React.FC = () => {
               <img
                 className="w-full h-full object-contain transition-transform duration-700 
                    group-hover:scale-105"
-                src={`/public/images/webp/${item.img}.webp`}
+                src={`/images/webp/${item.img}.webp`}
                 alt={t(item.li)}
               />
               <div

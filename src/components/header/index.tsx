@@ -22,12 +22,12 @@ const Header: React.FC = () => {
             <NavLink className="flex items-center gap-4" to="/state-symbols">
               <img
                 className="h-5 w-5 rounded-full"
-                src="/public/images/optimized/bayrog.avif"
+                src="/images/optimized/bayrog.avif"
                 alt="Bayroq"
               />
               <img
                 className="h-6"
-                src="/public/images/optimized/gerb-removebg-preview.avif"
+                src="/images/optimized/gerb-removebg-preview.avif"
                 alt="Gerb"
               />
               <FaItunesNote size={22} color="#4c75f6" />

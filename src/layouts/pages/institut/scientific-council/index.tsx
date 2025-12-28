@@ -32,7 +32,7 @@ const ScientificCouncil: React.FC = () => {
                className=" hover:bg-white/4 backdrop-blur-sm flex flex-row sm:flex-col md:flex-row h-40 sm:h-100 md:h-40  shadow  shadow-[#f6f5f577] hover:shadow-sm  rounded-[3px] overflow-hidden group">
                 <img
                 className="transition-transform duration-500 ease-in-out group-hover:scale-105"
-                src={`/public/images/webp/${item.img}.webp`} alt="" />
+                src={`/images/webp/${item.img}.webp`} alt="" />
                 <div className="p-4   text-white flex flex-col gap-0 sm:gap-3 justify-center">
                   <p className="text-[14px] md:text-[16px] font-semibold">{t(item.employeeName)}</p>
                   <p className="text-[12px] md:text-[14px]">{t(item.prof)}</p>

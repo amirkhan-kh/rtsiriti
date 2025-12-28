@@ -46,7 +46,7 @@ const AboutInstitut: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <img
                 className="w-30"
-                src="/public/images/webp/gerb-removebg-preview.webp"
+                src="/images/webp/gerb-removebg-preview.webp"
                 alt={t("")}
               />
               <p className="font-semibold text-md">{t("li5")}</p>
@@ -54,7 +54,7 @@ const AboutInstitut: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <img
                 className="w-30"
-                src="/public/images/webp/gerb-removebg-preview.webp"
+                src="/images/webp/gerb-removebg-preview.webp"
                 alt={t("")}
               />
               <p className="font-semibold text-md">{t("li4")}</p>
@@ -62,7 +62,7 @@ const AboutInstitut: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <img
                 className=""
-                src="/public/images/webp/raqamliVazirlik.webp"
+                src="/images/webp/raqamliVazirlik.webp"
                 alt={t("")}
               />
               <p className="font-semibold text-md">{t("li6")}</p>
@@ -80,7 +80,7 @@ const AboutInstitut: React.FC = () => {
             >
               <img
                 className="w-50 h-24 transition-transform duration-500 ease-in-out group-hover:scale-105"
-                src={`/public/images/webp/${item.img}.webp`}
+                src={`/images/webp/${item.img}.webp`}
                 alt=""
               />
             </div>

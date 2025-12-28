@@ -19,7 +19,7 @@ const StateSymbols: React.FC = () => {
           <div className="flex flex-col gap-6 items-center">
             <img
               className="h-40"
-              src={`/public/images/optimized/gerb-removebg-preview.avif`}
+              src={`/images/optimized/gerb-removebg-preview.avif`}
               alt={t("card1")}
             />
             <p className="font-semibold">{t("card1")}</p>
@@ -29,7 +29,7 @@ const StateSymbols: React.FC = () => {
           <div className="flex flex-col gap-6 items-center">
             <img
               className="h-40"
-              src={`/public/images/optimized/bayrog.avif`}
+              src={`/images/optimized/bayrog.avif`}
               alt={t("card2")}
             />
             <p className="font-semibold">{t("card2")}</p>

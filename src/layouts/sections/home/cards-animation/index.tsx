@@ -18,7 +18,7 @@ const CardAnimations: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center w-full gap-4 sm:gap-10">
               <img
                 className="w-full sm:w-[50%] h-60 object-cover"
-                src="/public/images/webp/news73.webp"
+                src="/images/webp/news73.webp"
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
@@ -37,7 +37,7 @@ const CardAnimations: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center w-full gap-4 sm:gap-10">
               <img
                 className="w-full sm:w-[50%] h-60 object-cover"
-                src="/public/images/webp/news69.webp"
+                src="/images/webp/news69.webp"
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
@@ -56,7 +56,7 @@ const CardAnimations: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center w-full gap-4 sm:gap-10">
               <img
                 className="w-full sm:w-[50%] h-60 object-cover"
-                src="/public/images/webp/news87.webp"
+                src="/images/webp/news87.webp"
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">
@@ -75,7 +75,7 @@ const CardAnimations: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center w-full gap-4 sm:gap-10">
               <img
                 className="w-full sm:w-[50%] h-60 object-cover"
-                src="/public/images/webp/news62.webp"
+                src="/images/webp/news62.webp"
                 alt=""
               />
               <div className="w-full sm:w-[50%] h-60">

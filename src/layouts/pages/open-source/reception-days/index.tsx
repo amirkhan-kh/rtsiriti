@@ -22,7 +22,7 @@ const ReceptionDays: React.FC = () => {
             <div key={i} className="flex flex-row sm:flex-col items-center lg:flex-row shadow  shadow-[#f6f5f577] hover:shadow-sm p-4 gap-4 text-white group hover:bg-white/4">
               <img
                 className="w-30 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-105"
-                src={`/public/images/optimized/${item.img}.avif`}
+                src={`/images/optimized/${item.img}.avif`}
                 alt={t(item.emName)}
                 />
               <div className="flex flex-col lg:flex-row gap-2">
