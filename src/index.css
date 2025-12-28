@@ -263,18 +263,17 @@ header{
 
 
 
-/* Loading bar rang */
 #nprogress .bar {
   background: #4c75f6;
   height: 3px;
 }
 
-/* Shadow effekt */
+
 #nprogress .peg {
   box-shadow: 0 0 10px #4c75f6, 0 0 5px #4c75f6;
 }
 
-/* Spinner ni o‘chirish */
+
 #nprogress .spinner {
   display: none;
 }

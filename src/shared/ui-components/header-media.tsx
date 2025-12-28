@@ -13,8 +13,12 @@ import { ThemeToggle } from "./theme-toggle";
 import { useTranslation } from "react-i18next";
 
 const HeaderMedia: React.FC = () => {
+const { i18n } = useTranslation();
 
-  const { i18n,  } = useTranslation();
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("language", lng); // 👈 SAQLASH
+  };
   return (
     <div className="flex w-full items-center gap-3 sm:gap-8">
       <picture className="w-12 h-full ">
@@ -37,7 +41,7 @@ const HeaderMedia: React.FC = () => {
         <Select
        
           value={i18n.language}
-          onValueChange={(lng) => i18n.changeLanguage(lng)}
+      onValueChange={changeLanguage}
         >
           <SelectTrigger>
             <SelectValue className="dark:text-white" placeholder="Tilni tanlang" />

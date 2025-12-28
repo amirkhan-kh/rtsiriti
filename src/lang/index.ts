@@ -3,6 +3,7 @@ import i18next from "i18next";
 import uz from '../locale/uz';
 import ru from '../locale/ru';
 import en from '../locale/en';
+const savedLanguage = localStorage.getItem("language") || "uz";
 
 i18next
     .use(initReactI18next)
@@ -12,7 +13,7 @@ i18next
       ru,
       uz,
     },
-    lng: "uz",
+    lng: savedLanguage,
     fallbackLng: "uz",
     ns:["HeaderLang",
         "Intro",
