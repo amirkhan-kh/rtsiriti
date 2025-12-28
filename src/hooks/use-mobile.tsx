@@ -5,7 +5,7 @@ export const useIsMobile = () => {
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768); // mobil ekranni aniqlash
+      setIsMobile(window.innerWidth <= 768); 
     };
 
     checkMobile();
