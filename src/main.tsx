@@ -1,4 +1,6 @@
 import "./lang/index.ts";
+import 'nprogress/nprogress.css';
+
 import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import "./index.css";
@@ -11,6 +13,7 @@ createRoot(document.getElementById("root")!).render(
   <ThemeProvider>
     <ViewModeProvider>
         <FontSizeProvider>
+          
           <RouterProvider router={router} />
         </FontSizeProvider>
     </ViewModeProvider>
