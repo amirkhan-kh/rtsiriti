@@ -105,7 +105,7 @@ const Header: React.FC = () => {
                 )}
               />
             </button>
-            <ToggleMenu open={open} />
+            <ToggleMenu open={open} onClose={() => setOpen(false)} />
           </div>
         </div>
 

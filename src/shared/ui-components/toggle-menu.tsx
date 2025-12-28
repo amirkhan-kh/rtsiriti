@@ -6,9 +6,10 @@ import { useTranslation } from "react-i18next";
 
 interface Props {
   open: boolean;
+  onClose: () => void;
 }
 
-const ToggleMenu: React.FC<Props> = ({ open }) => {
+const ToggleMenu: React.FC<Props> = ({ open, onClose }) => {
   const { t } = useTranslation("HeaderLang");
 
   return (
@@ -29,7 +30,7 @@ const ToggleMenu: React.FC<Props> = ({ open }) => {
               key={i}
               className="px-5 py-1 sm:py-2 text-white hover:bg-[#8eaaf8] text-[13px]"
             >
-              <NavLink to={item.srcLink}>{t(item.linkName)}</NavLink>
+              <NavLink to={item.srcLink} onClick={onClose}>{t(item.linkName)}</NavLink>
             </li>
           ))}
         </ul>
@@ -41,7 +42,7 @@ const ToggleMenu: React.FC<Props> = ({ open }) => {
               key={i}
               className="px-2 py-1 sm:py-2 text-white hover:bg-[#8eaaf8] text-[13px]"
             >
-              <NavLink to={item.srcLink} key={i}>
+              <NavLink to={item.srcLink} key={i} onClick={onClose}>
                 {t(item.linkName)}
               </NavLink>
             </li>
@@ -55,7 +56,7 @@ const ToggleMenu: React.FC<Props> = ({ open }) => {
               key={i}
               className="w-full px-4 py-1 sm:py-2 text-white hover:bg-[#8eaaf8] text-[13px]"
             >
-              <NavLink to={item.srcLink} key={i}>
+              <NavLink to={item.srcLink} key={i} onClick={onClose}>
                 {t(item.linkName)}
               </NavLink>
             </li>
@@ -69,7 +70,7 @@ const ToggleMenu: React.FC<Props> = ({ open }) => {
               key={i}
               className="w-full px-4  py-1 sm:py-2 text-white hover:bg-[#8eaaf8] text-[13px]"
             >
-              <NavLink to={item.srcLink} key={i}>
+              <NavLink to={item.srcLink} key={i} onClick={onClose}>
                 {t(item.linkName)}
               </NavLink>
             </li>

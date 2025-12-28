@@ -59,7 +59,7 @@ function NavigationMenuItem({
 }
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-9 w-max items-center justify-center bg-transparent py-5 px-6 lg:px-10 text-sm font-medium dark:bg-[#7c96ff] focus:bg-[#4c75f6] focus:text-white disabled:pointer-events-none  data-[state=open]:text-white data-[state=open]:focus:bg-[#4c75f6] data-[state=open]:bg-[#4c75f6] outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1"
+  "group inline-flex h-9 w-max items-center justify-center bg-transparent py-5 px-4 lg:px-10 text-sm font-medium dark:bg-[#7c96ff] focus:bg-[#4c75f6] focus:text-white disabled:pointer-events-none  data-[state=open]:text-white data-[state=open]:focus:bg-[#4c75f6] data-[state=open]:bg-[#4c75f6] outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1"
 )
 
 function NavigationMenuTrigger({
@@ -75,7 +75,7 @@ function NavigationMenuTrigger({
     >
       {children}{" "}
       <ChevronDownIcon
-        className="relative  ml-1 size-3 transition duration-300 group-data-[state=open]:rotate-180"
+        className="relative  ml-1 size-3 transition duration-300 group-data-[state=open]:rotate-180 "
         aria-hidden="true"
       />
     </NavigationMenuPrimitive.Trigger>
