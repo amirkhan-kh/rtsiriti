@@ -14,7 +14,7 @@ const InstitutTeam: React.FC = () => {
 
       <div className="bg-[#4c75f6] w-full py-10 mb-20 dark:bg-[#7c96ff]">
         <div className="container px-4 mx-auto">
-          <FadeContent blur={true} duration={2000} easing="ease-out" initialOpacity={0}>
+          <FadeContent blur={true} duration={2000} initialOpacity={0}>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-20 gap-y-6 py-8">
             {employeesAll.map((item, i) => (

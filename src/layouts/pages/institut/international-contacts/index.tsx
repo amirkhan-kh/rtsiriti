@@ -10,7 +10,6 @@ const InternContacts: React.FC = () => {
        <FadeContent
         blur={true}
         duration={2000}
-        easing="ease-out"
         initialOpacity={0}
       >
       <h2 className="text-center text-2xl py-6">{t("title")}</h2>

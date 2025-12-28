@@ -13,7 +13,7 @@ const Teachers :React.FC = () => {
 
       <div className="bg-[#4c75f6] dark:bg-[#7c96ff] w-full py-10 border-b-2 border-white">
         <div className="container px-4 mx-auto">
-          <FadeContent blur={true} duration={2000} easing="ease-out" initialOpacity={0}>
+          <FadeContent blur={true} duration={2000} initialOpacity={0}>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-20 gap-y-6 py-8">
             {teachersInstitute.map((item, i) => (

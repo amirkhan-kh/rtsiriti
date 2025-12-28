@@ -12,7 +12,6 @@ const ScientificCouncil: React.FC = () => {
          <FadeContent
         blur={true}
         duration={2000}
-        easing="ease-out"
         initialOpacity={0}
       >
         <h2 className="text-center text-2xl">{t("title")}</h2>

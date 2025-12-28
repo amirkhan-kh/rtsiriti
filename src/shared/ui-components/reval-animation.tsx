@@ -59,7 +59,6 @@ export const RevalLeft = ({
   delay = 0.5,
   duration = 1,
   direction = "left",
-  gradientColor = "rgba(255,255,255,1)"
 }: RevalAboutImgProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
@@ -73,9 +72,7 @@ export const RevalLeft = ({
     }
   }, [isInView, mainControls, slideControls]);
 
-  const gradientDirection = direction === "left" 
-    ? "to right" 
-    : "to left";
+  
 
   const mainVariants = {
     hidden: { 
@@ -149,7 +146,6 @@ export const RevalRight = ({
   delay = 0.25,
   duration = 1,
   direction = "left",
-  gradientColor = "rgba(255,255,255,1)"
 }: RevalAboutImgProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
@@ -162,11 +158,6 @@ export const RevalRight = ({
       slideControls.start("visible"); 
     }
   }, [isInView, mainControls, slideControls]);
-
-  const gradientDirection = direction === "left" 
-    ? "to right" 
-    : "to left";
-
   const mainVariants = {
     hidden: { 
       opacity: 0, 

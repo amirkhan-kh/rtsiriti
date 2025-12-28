@@ -12,7 +12,6 @@ const CardAnimations: React.FC = () => {
         <FadeContent
           blur={true}
           duration={1700}
-          easing="ease-out"
           initialOpacity={0}
         >
           <RevalLeft width="100%">
@@ -32,7 +31,6 @@ const CardAnimations: React.FC = () => {
         <FadeContent
           blur={true}
           duration={2000}
-          easing="ease-out"
           initialOpacity={0}
         >
           <RevalRight width="100%" delay={0.4}>
@@ -52,7 +50,6 @@ const CardAnimations: React.FC = () => {
         <FadeContent
           blur={true}
           duration={2000}
-          easing="ease-out"
           initialOpacity={0}
         >
           <RevalLeft width="100%" delay={0.6}>
@@ -72,7 +69,6 @@ const CardAnimations: React.FC = () => {
         <FadeContent
           blur={true}
           duration={2000}
-          easing="ease-out"
           initialOpacity={0}
         >
           <RevalRight width="100%" delay={0.8}>

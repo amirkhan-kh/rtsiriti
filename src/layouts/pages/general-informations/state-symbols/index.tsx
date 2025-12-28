@@ -10,7 +10,6 @@ const StateSymbols: React.FC = () => {
         <FadeContent
         blur={true}
         duration={2000}
-        easing="ease-out"
         initialOpacity={0}
       >
       <h1 className="text-2xl text-center p-6 dark:text-white">{t("title")}</h1>

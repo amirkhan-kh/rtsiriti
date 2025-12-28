@@ -12,7 +12,6 @@ const InstitutProps: React.FC = () => {
         <FadeContent
         blur={true}
         duration={2000}
-        easing="ease-out"
         initialOpacity={0}
       >
       <h2 className="text-2xl text-center py-6 dark:text-white">{t("title")}</h2>
