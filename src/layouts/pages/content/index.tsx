@@ -54,9 +54,9 @@ const Content: React.FC = () => {
       <div
         className="group relative bg-white dark:bg-black border border-[#f0f0f0]
               overflow-hidden hover:shadow-md transition-all duration-300 
-               h-full flex flex-col rounded-[3px] dark:border-[#7c96ff] gridCard"
+               h-full flex flex-col rounded-[3px] dark:border-[#7c96ff] gridCard text-center"
       >
-        Card Topilmadi
+        Card not found
       </div>
     );
   }
