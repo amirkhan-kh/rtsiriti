@@ -51,27 +51,30 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="w-full flex flex-col md:flex-row justify-between items-center py-4 sm:pb-6">
           <div className="flex items-center gap-4 w-full md:w-[50%] h-full pb-6 sm:pb-0">
+            <NavLink to={'/'} className="flex items-center">
+
             <picture className="w-26 h-full">
               <source
                 srcSet="/images/optimized/airilogo-removebg-preview.avif"
                 type="image/avif"
-              />
+                />
               <source
                 srcSet="/images/webp/airilogo-removebg-preview.webp"
                 type="image/webp"
-              />
+                />
               <img
                 src="/images/original/airilogo-removebg-preview.jpg"
                 alt="Airi Logo"
                 loading="lazy"
-              />
+                />
             </picture>
             <h1
               className="text-[15px] font-medium w-full h-10 dark:text-white"
-             
-            >
+              
+              >
               <a href="">{t("title")}</a>
             </h1>
+              </NavLink>
           </div>
 
           <div className="hidden md:block ">
